@@ -1,0 +1,1 @@
+package com.company;import java.math.BigInteger;import java.util.Scanner;public class SumBigNumber_02 {    public static void main(String[] args) {        Scanner scanner = new Scanner(System.in);        BigInteger number1 = scanner.nextBigInteger();        BigInteger nuber2 = scanner.nextBigInteger();        System.out.println(number1.add(nuber2));    }}
